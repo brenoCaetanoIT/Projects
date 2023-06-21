@@ -42,7 +42,7 @@ Following the creation of the bucket containing the website content, the EC2 ins
 [EC2 Permissions]
 
 <summary><h2 style="display: inline-block;">Step 5: Cloud Front distribution creation and configuration</h2></summary>
-Finnaly a Cloud Front distribution was created to serve the website content globally from both locations via the R53 along with the website certificate. The distribution contained both the EC2 and S3 as origins and its behavior was configured to redirect HTTP requests to HTTPS and to have as origin an origin group containing both the EC2 instance as primary location and the S3 in case of failover.
+Finally, a CloudFront distribution was created to globally serve the website content from both locations, leveraging the integration with Route 53 and utilizing the website certificate. The CloudFront distribution included both the EC2 instance and the S3 bucket as origins. The behavior of the distribution was configured to redirect HTTP requests to HTTPS, ensuring secure communication. Moreover, an origin group was set up to contain both the EC2 instance as the primary location and the S3 bucket as a failover option in case of any failover.
 
 ![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
 [CF distributions]
@@ -50,7 +50,10 @@ Finnaly a Cloud Front distribution was created to serve the website content glob
 ![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
 [CF distribution origin groups]
 
-Lastly, the cloudfront distribution was passed as an A Alias record for within the website hosted zone.
+Lastly, the cloudfront distribution was passed as an A Alias record within the website hosted zone.
+
+![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
+[r53 cf as a record pic]
 
 
 
