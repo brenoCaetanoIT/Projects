@@ -14,5 +14,6 @@ Step 1 of the project was to register a domain with R53. R53 was chosen over oth
 
 <summary><h2 style="display: inline-block;">Step 2: EC2 creation</h2></summary>
 In the second step of the project, an EC2 instance was created to serve as the primary hosting location for the website. The specific region and Availability Zone selected for the EC2 instance was us-east-1a.
+
 ![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
 [ec2 pic]
