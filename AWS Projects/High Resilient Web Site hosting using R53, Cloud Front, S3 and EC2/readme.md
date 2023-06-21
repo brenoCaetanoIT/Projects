@@ -4,3 +4,4 @@
 
 <h2>Project Explanation:</h2>
 In this project I deployed a highly resilient static website using AWS Cloud Infrastructure. The website is hosted in 2 different locations the primary location being US-EAST-1a with EC2 and the standby location, in case the primary location,ca-central-1 with S3, which serves as a backup in case the primary location becomes unavailable. To ensure efficient and fast distribution, CloudFront is employed to deliver the website content globally. Below is a concise step-by-step overview of the project implementation.
+<summary><h1 style="display: inline-block;">NO LINE</h1></summary>
