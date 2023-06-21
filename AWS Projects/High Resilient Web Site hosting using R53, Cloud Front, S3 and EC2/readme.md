@@ -10,7 +10,8 @@ To ensure efficient and fast distribution, CloudFront is employed to deliver the
 <br><br>Below is a concise step-by-step overview of the project implementation.
 
 <summary><h2 style="display: inline-block;">Step 1: R53 domain registration and certificate creation</h2></summary>
-Step 1 of the project was to register a domain with R53. R53 was chosen over other DNS services due to its seamless integration with AWS services and its convenient auto-renewal feature. The chosen domain name was brenocaetano.com <br>
+Step 1 of the project was to register a domain with R53 and use the AWS Certificate Manager for the website certificate.<br>
+R53 was chosen over other DNS services due to its seamless integration with AWS services and its convenient auto-renewal feature. The chosen domain name was brenocaetano.com <br>
 
 
 ![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
