@@ -53,7 +53,7 @@ Following the creation of the bucket containing the website content, the EC2 ins
 
 <summary><h2 style="display: inline-block;">Step 5: Cloud Front distribution creation and configuration</h2></summary>
 Finally, a CloudFront distribution was created to globally serve the website content from both locations, leveraging the integration with Route 53 and utilizing the website certificate. The CloudFront distribution included both the EC2 instance and the S3 bucket as origins. The behavior of the distribution was configured to redirect HTTP requests to HTTPS, ensuring secure communication. Moreover, an origin group was set up to contain both the EC2 instance as the primary location and the S3 bucket as a failover option in case of any failover.
-<br>
+<br><br>
 
 ![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
 [CF distributions]
