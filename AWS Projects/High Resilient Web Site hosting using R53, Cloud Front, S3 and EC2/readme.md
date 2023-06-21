@@ -1,5 +1,6 @@
 # High Resilient Web Site hosting using R53, Cloud Front, S3 and EC2
 
+[diagram]
 ![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
 
 <summary><h2 style="display: inline-block;">Project Explanation:</h2></summary>
@@ -7,5 +8,7 @@ In this project I deployed a highly resilient static website using AWS Cloud Inf
 
 <summary><h2 style="display: inline-block;">Step1: R53 domain registration</h2></summary>
 Step 1 of the project was to register a domain with R53. R53 was chosen over other DNS services due to its seamless integration with AWS services and its convenient auto-renewal feature. The chosen domain name was brenocaetano.com
-![image](https://github.com/brenoCaetanoIT/Projects/assets/136939198/9c96345a-7231-49cb-b520-5539a8c89f41)
+
+[registeredDomains pic]
+![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
 
