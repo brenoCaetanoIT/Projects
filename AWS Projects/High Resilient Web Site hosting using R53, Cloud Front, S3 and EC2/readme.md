@@ -30,3 +30,17 @@ Once both buckets were created, a Multi-Region Access Point was set up to ensure
 
 ![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
 [buckets replication pic]
+
+
+<summary><h2 style="display: inline-block;">Step 4: EC2 configuration</h2></summary>
+Following the creation of the bucket containing the website content, the EC2 instance was configured to host the website using the CLI. Additionally, as the S3 bucket and its objects was not made public, an IAM role was created with specific permissions. The role granted privileges for listing the bucket and retrieving its objects This role was then attached to the EC2 instance, enabling it to access and serve the content from the S3 bucket.
+
+![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
+[EC2 CLI sync]
+
+![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
+[EC2 Permissions]
+
+
+
+
