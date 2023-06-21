@@ -50,10 +50,12 @@ Finally, a CloudFront distribution was created to globally serve the website con
 ![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
 [CF distribution origin groups]
 
-Lastly, the cloudfront distribution was passed as an A Alias record within the website hosted zone.
+Lastly, the cloudfront distribution was utilized as the A Alias record within the website hosted zone.
 
 ![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
 [r53 cf as a record pic]
+
+You can see the website here <a href="brenocaetano.com">clicking here</a>
 
 
 
