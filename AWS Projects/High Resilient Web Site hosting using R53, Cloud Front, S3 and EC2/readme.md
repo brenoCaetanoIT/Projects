@@ -55,7 +55,7 @@ Lastly, the cloudfront distribution was utilized as the A Alias record within th
 ![pictureCat](https://user-images.githubusercontent.com/136939198/247661690-ef1987b1-ee97-48eb-afbc-0f3892b7123c.jpg)
 [r53 cf as a record pic]
 
-You can see the website by <a href="https://brenocaetano.com/" target="_blank">clicking here!</a>
+You can see the website by <a href="https://brenocaetano.com/">clicking here!</a>
 
 
 
